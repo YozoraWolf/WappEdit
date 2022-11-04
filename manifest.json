@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "WappEdit",
+    "version": "1.0",
+  
+    "description": "Allows for quick Whatsapp Web Text Styling",
+  
+    "icons": {
+      "logo": "icons/logo96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://web.whatsapp.com/*"],
+        "js": ["wappedit.js"]
+      }
+    ]
+  
+  }
+  
